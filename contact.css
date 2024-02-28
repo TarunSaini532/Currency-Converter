@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #081b29; */
+  }
+  
+  .navbar {
+    height: 8%;
+    width: 100%;
+    background-color: #161819;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-left: 2rem;
+    display: flex;
+  }
+  
+  .website-logo {
+    height: 100px;
+    width: 190px;
+  }
+  
+  .nav-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-icons a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin-right: 40px;
+  }
+  
+  .nav-icons a:hover {
+    text-decoration: underline;
+  }
+  
+  .about-heading {
+    font-size: 3rem;
+    font-weight: 500;
+    color: whitesmoke;
+  }
+  
+  #contact {
+    padding: 3rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)),
+      url("images/service-3.jpg");
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .contact-left {
+    flex-basis: 35%;
+    padding: 8px 10%;
+  }
+  .contact-right {
+    flex-basis: 60%;
+  }
+  .contact-left h1 {
+    font-size: 40px;
+    color: #00abf0;
+  }
+  .contact-left p {
+    margin-top: 30px;
+    color: whitesmoke;
+  }
+  .contact-left p i {
+    color: #b54769;
+    margin-right: 20px;
+  }
+  .social-icons a {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #b54769;
+    transition: transform 0.5s;
+  }
+  
+  .social-icons a:hover {
+    color: #00abf0;
+    transform: translateY(-5px);
+  }
+  .btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    width: 180px;
+    color: black;
+    background-color: #b54769;
+    height: 14%;
+    border: 2px solid red;
+    border-radius: 8px;
+  }
+  
+  .contact-right form {
+    width: 100%;
+  }
+  form input,
+  form textarea {
+    width: 80%;
+    border: 0;
+    outline: none;
+    background-color: #262626;
+    padding: 15px;
+    margin: 15px 0;
+  
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  form .btn2 {
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    color: whitesmoke;
+    background-color: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  
